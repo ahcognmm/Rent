@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">REntPJ</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="hanoiArea">
+        <item>	Ba Đình	</item>
+        <item>	Bắc Từ Liêm	</item>
+        <item>	Cầu Giấy	</item>
+        <item>	Đống Đa	</item>
+        <item>	Hà Đông	</item>
+        <item>	Hai Bà Trưng	</item>
+        <item>	Hoàn Kiếm	</item>
+        <item>	Hoàng Mai	</item>
+        <item>	Long Biên	</item>
+        <item>	Nam Từ Liêm	</item>
+        <item>	Tây Hồ	</item>
+        <item>	Thanh Xuân	</item>
+    </string-array>
+</resources>
