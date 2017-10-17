@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#D23731</color>
+    <color name="colorBlack">#313131</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dividerColor">#48cafd</color>
+    <color name="available">#0000FF</color>
+    <color name="unavailable">#600000FF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="slide1">#365F8A</color>
+    <color name="slide2">#8CA745</color>
+    <color name="slide3">#C56674</color>
+    <color name="slide4">#BDA9B3</color>
+
+    <color name="slideBTextColor">#FEBD10</color>
+    <color name="slideTextColor">#FFFFFF</color>
+    <color name="emptyListHotelTextColor">#999999</color>
+    <color name="signinbutton">#738E3D</color>
+    <color name="signupbutton">#FF0000</color>
+    <color name="hotelname">#4A4A4A</color>
+    <color name="splitlistviewforum">#969696</color>
+
+    <!-- intro activity -->
+    <color name="dot_active">#FFFFFF</color>
+    <color name="dot_inactive">#cccccc</color>
+
+
+</resources>

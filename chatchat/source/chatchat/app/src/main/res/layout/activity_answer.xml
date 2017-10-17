@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/requestheader"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/barcolor">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/avatar"
+
+            />
+
+        <Button
+            android:id="@+id/hotelbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/transparent"
+            android:text="@string/menubutton"
+            android:textColor="@color/slideTextColor"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/requesttitle"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:background="@drawable/bghotelinfos">
+
+        <TextView
+            android:id="@+id/textViewRequesttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/request"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/hotelname"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/request_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/answertitle"
+            android:textColor="@color/hotelname"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textrequesttile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bkg_requesttitle"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="text"
+        android:textColor="@color/slideTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/layout_listrequest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/requestListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/splitlistviewforum"
+            android:dividerHeight="2dp"
+            android:visibility="visible"
+            android:layout_above="@+id/form" />
+
+        <TextView
+            android:id="@+id/emptyrequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emptyrequestlist"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            />
+        <LinearLayout
+            android:id="@+id/form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#91f1f1f1"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp"
+            android:layout_toRightOf="@+id/requestListView"
+            >
+            <EditText
+                    android:id="@+id/requestEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/button1"
+                    android:layout_toLeftOf="@+id/sendMessageButton"
+                    android:layout_weight="0.72"
+                    android:background="@drawable/bkgtextchat"
+                    android:ems="10"
+                    android:maxHeight="80dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/sendRequestButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/send_button"
+                    android:text="d" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

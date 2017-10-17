@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">ChatChat</string>
+    <string name="title_section1">Favourites</string>
+    <string name="title_section2">User List</string>
+    <string name="title_section3">Contacts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="user1_login">thongph</string>
+    <string name="user1_password">123456</string>
+    <string name="server">52.90.171.87</string>
+    <string name="server_host">52.90.171.87</string>
+    <string name="salta">Salta</string>
+
+    <!--For tab bar-->
+    <string name="btn_home">Home</string>
+    <string name="btn_message">Message</string>
+    <string name="btn_forum">Forum</string>
+    <string name="btn_links">Links</string>
+    <string name="btn_info">Info Hotel</string>
+    <!--For network connectivity-->
+    <string name="no_network">There is no network connection!</string>
+
+    <!--For sigin-->
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="notregist">Create a new account?</string>
+    <string name="clickhere">Click here</string>
+    <string name="fillemail">Please fill the email!</string>
+    <string name="fillemail1">The email is not valid!</string>
+    <string name="fillpass">Please fill the password!</string>
+    <string name="wrong_us_pass">Wrong username or password! Please try again!</string>
+
+    <!--For register-->
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="signup">Sign up</string>
+    <string name="registed">Already registered?</string>
+    <string name="privacy">With the registration to Chatchat I accept the TOS and the privacy policy</string>
+    <string name="fillfirstname">Please fill the firstname!</string>
+    <string name="filllastname">Please fill the lastname!</string>
+    <string name="username_existed">Username is existed!</string>
+
+    <!--For list hotels-->
+    <string name="reservation">I tuoi soggiorni</string>
+    <string name="emptylist">No reservation at this moment</string>
+    <string name="hotelbutton">Hotels</string>
+    <string name="menubutton">Menu</string>
+    <string name="messages">Messages</string>
+    <string name="forum">Forum</string>
+    <string name="links">Links</string>
+    <string name="info">Info</string>
+
+    <!--For weather-->
+    <string name="w_today">Today</string>
+    <string name="w_no_infos">no infos available</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+
+
+    <!--For forum-->
+    <string name="emptyforumlist">No forum at this moment</string>
+    <string name="forum_infomation">Select a topic, check the messages or insert a new one. The messages are anonymous</string>
+    <string name="forum_infomation_request">Are you searching someone to play tennis with? Insert here your request</string>
+
+    <!--For request-->
+    <string name="answer">answer</string>
+    <string name="answers">answers</string>
+    <string name="emptyrequestlist">No request at this moment</string>
+    <string name="validday">Valid for days</string>
+
+    <!--For answer-->
+    <string name="request">Request</string>
+    <string name="answertitle">Insert here answers for the request</string>
+
+    <!--For logout-->
+    <string name="logout_prompt">Are you sure to logout?</string>
+    <string name="ok_text">OK</string>
+    <string name="cancel_text">Cancel</string>
+
+    <!--For hotel info-->
+    <string name="ho_address">Address:</string>
+    <string name="ho_tel">Tel:</string>
+    <string name="ho_link">Link:</string>
+
+
+    <!--For slides-->
+    <string name="welcome1">Welcome in ChatChat</string>
+    <string name="welcome11">Your direct connection with the facility you reserved</string>
+    <string name="welcome2">Direct messages</string>
+    <string name="welcome21">Real time communication with the reception</string>
+    <string name="welcome3">Forum</string>
+    <string name="welcome31">Do you need a partner for a tennis game?
+        or someone to travel with?     Insert a request in the forum of the Hotel</string>
+    <string name="welcome4">Useful links</string>
+    <string name="welcome41">Your hotel gives you access to useful web links for your travel.
+    Events, places to visit, useful services</string>
+
+    <!--Hotel list view-->
+    <string name="hotel_listview_Arrive">Arrivo</string>
+    <string name="hotel_listview_Departure">Partenza</string>
+    <string name="hotel_listview_Remove">Rimuovi dalla lista</string>
+
+    <!--Months in Itali-->
+    <string name="jan">GEN</string>
+    <string name="feb">FEB</string>
+    <string name="mar">MAR</string>
+    <string name="apr">APR</string>
+    <string name="may">POU</string>
+    <string name="jun">GIU</string>
+    <string name="jul">LUG</string>
+    <string name="aug">AGO</string>
+    <string name="sep">SET</string>
+    <string name="oct">OTT</string>
+    <string name="nov">NOV</string>
+    <string name="dec">DIC</string>
+
+    <!--Day-->
+    <string name="Sunday">Domenica</string>
+    <string name="Monday">Lunedì</string>
+    <string name="Tuesday">Martedì</string>
+    <string name="Wednesday">Mercoledì</string>
+    <string name="Thursday">Giovedì</string>
+    <string name="Friday">Venerdì</string>
+    <string name="Saturday">Sabato</string>
+
+
+    <!--For hotel home -->
+    <string name="hotel_weather_information">Informazioni Meteo</string>
+</resources>
